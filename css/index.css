@@ -5,6 +5,7 @@ html {
 }
 h1,h3{
    color: white;
+   letter-spacing: 0.2em;
 }
 
 h1{
@@ -13,12 +14,12 @@ h1{
 }
 
 h3{
-   font-size: 3em;
+   font-size: 2.5em;
    font-style: italic;
 }
 
 h4{
-   font-size: 2.5em;
+   font-size: 2em;
    color: #FD6A02;
 }
 
@@ -50,7 +51,7 @@ body {
 }
 
 #home-cover{
-   background-image: url("../img/home.jpg");
+   background-image: url("../img/home3.jpg");
    height: 100%;
    display: flex;
    justify-content: center;
@@ -99,12 +100,12 @@ body {
 }
 
 #services {
-   margin-top: 5%;
+   margin: 5% 0 5% 0;
 }
 #services-content{
    display: grid;
-   grid-template: 5% 18% 18% 18% 18% 18% 5%;
-   grid-template-rows: 5% 90% 5%;
+   grid-template-columns: 5% 15.6% 15.6% 15.6% 15.6% 15.6% 5%;
+   grid-template-rows: auto auto auto;
    grid-gap: 2%;
 }
 
@@ -115,15 +116,87 @@ body {
    border: 1px solid #A9A9A9;
    border-radius: 2%;
    min-height: 30%;
+   border-radius: 5%;
 }
 
-.service-container:hover{
-   font-size: 1.1em;
+.service-title h5{
+   margin-bottom: 3%;
 }
 
-.container-a {
-   margin-left: 15%;
+.service-content {
+   margin-bottom: 2%;
 }
-.container-e {
-   margin-right: 15%;
+
+#services-content:hover > div{
+   opacity: 0.5;
+}
+
+#services-content:hover > div:hover{
+   opacity: 1;
+}
+
+.no-border-container {
+   border: none;
+}
+
+/*Footer*/
+#footer{
+   text-align: center;
+   background-color: #D3D3D3;
+   padding: 2% 0 2% 0;
+}
+
+#footer-title h4 {
+   margin: 1% 0 0 0;
+}
+
+#footer-info {
+   display: grid;
+   grid-template-columns: 20% 20% 20% 20% 20%;
+   grid-template-rows: 5% 90% 5%;
+}
+
+#footer-info-adress{
+   grid-column: 2 / 3;
+}
+
+#footer-info-contact{
+   grid-column: 4 / 5;
+}
+
+#footer-content-message{
+   margin-top: 2%;
+}
+
+/*Navigation Bar*/
+#navigation-bar {
+   list-style-type: none;
+   overflow: hidden;
+   position: fixed;
+   color: white;
+   right: 0;
+   background-color: black;
+   margin: 0;
+   opacity: 0.5;
+   width: 100%
+}
+
+#navigation-bar li {
+   display: block;
+   float: right;
+   text-decoration: none;
+   text-align: center;
+   padding: 14px 16px;
+}
+#navigation-bar li a:hover {
+   color: #FD6A02
+}
+
+a:visited {
+   color: white;
+   text-decoration: normal;
+}
+a {
+   text-decoration: none;
+   color: white;
 }
