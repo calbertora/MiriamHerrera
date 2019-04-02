@@ -11,10 +11,10 @@ body {
    font-weight: 700;
    font-size: .9em;
    letter-spacing: .1rem;
-   background: rgba(0,0,0,0.6) !important;
+   background: rgba(0, 0, 0, 0.6) !important;
 }
 
-.navbar-brand img{
+.navbar-brand img {
    height: 2.5rem;
    width: 2.5rem;
 }
@@ -24,7 +24,7 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-   color:white;
+   color: white;
    padding-top: .8rem;
 }
 
@@ -35,7 +35,144 @@ body {
 
 /*----Landing Page-----*/
 .home-inner {
-   background-image: url("../img/home.jpg");
-   background-size: cover;
+   background-image: url("../img/home1.jpg");
+   height: 640px;
    background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.caption {
+   width: 100%;
+   max-width: 100%;
+   position: absolute;
+   top: 38%;
+   z-index: 1;
+   color: white;
+   text-transform: uppercase;
+}
+
+.caption h1 {
+   font-size: 3.8rem;
+   font-weight: 700;
+   letter-spacing: .3rem;
+   text-shadow: .1rem .1rem .8rem black;
+   padding-bottom: 1rem;
+}
+
+.caption h3 {
+   font-size: 2rem;
+   text-shadow: .1rem .1rem .5rem black;
+   padding-bottom: 1.6rem;
+   letter-spacing: .2rem;
+}
+
+.btn-lg {
+   border-width: medium;
+   border-radius: 0;
+   padding: .6rem 1.3rem;
+   font-size: 1.1rem;
+   letter-spacing: .1rem;
+}
+
+/*-------About Section--------*/
+#about {
+   padding-top: 4rem;
+}
+
+#img-about img {
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   margin-top: 4rem;
+}
+
+#about #about-cover #about-content #content h2 {
+   font-size: 3rem;
+   font-weight: 700;
+   letter-spacing: .3rem;
+   text-shadow: .1rem .1rem .8rem white;
+   padding-bottom: 1rem;
+   color: #1EBBA3;
+}
+
+#about #about-cover #about-content #content p {
+   font-size: 1.2rem;
+   letter-spacing: .1rem;
+   text-shadow: .1rem .1rem .8rem white;
+   padding-bottom: 1rem;
+   color: #505952;
+}
+
+/*-----Services section------*/
+h3.heading {
+   font-size: 1.9rem;
+   font-weight: 700;
+   text-transform: uppercase;
+   margin-bottom: 1.9rem;
+   margin-top: 3rem;
+}
+
+.heading-underline {
+   width: 3rem;
+   height: .2rem;
+   background-color: #1EBBA3;
+   margin: 0 auto 2rem;
+}
+
+.service-icon svg.svg-inline--fa {
+   color: #1EBBA3;
+   margin-top: 3rem;
+}
+
+.service-icon h3 {
+   font-size: 1.3rem;
+   text-transform: uppercase;
+   padding-bottom: .4rem;
+}
+
+.service-icon p {
+   font-size: 1.1rem;
+}
+
+.fixed-background {
+   background-image: url("../img/home3.jpg");
+   z-index: -1;
+   height: auto;
+   margin-top: 3rem;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.dark {
+   background-color: rgba(0, 0, 0, .8);
+   color: white;
+   margin: auto 0;
+   display: inline-block;
+}
+
+/*------- Contact section---------*/
+footer {
+   padding: 0 0 0 2rem;
+   margin-top: 2rem;
+   font-size: 1.1rem;
+}
+
+footer .row {
+   padding-bottom: 1.5rem;
+   width: 100%;
+}
+
+footer img {
+   height: 3rem;
+   margin: 1.5rem 0;
+}
+
+hr.socket {
+   width: 100%;
+   border-top: .2rem solid #666B71;
+   margin-top: 3rem;
 }
