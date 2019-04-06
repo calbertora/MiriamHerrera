@@ -79,16 +79,13 @@ body {
 
 /*-------About Section--------*/
 #about {
-   padding-top: 4rem;
-   height:80vh;
    min-height:640px;
 }
 
 #img-about img {
-  /* width: 300px;
-   height: 300px;
-   */border-radius: 50%;
-   margin-top: 4rem;
+   width: 100%;
+   height: auto;
+   border-radius: 50%;
 }
 
 #about #about-cover #about-content #content h2 {
@@ -130,11 +127,18 @@ h3.heading {
 	margin-top:50px;
 	margin-left:10px;
 	margin-right:10px;
-	border-width:0px 5px 0px 0px;
-	border-style:solid;
-	border-color:blue #1EBBA3 #1EBBA3 #1EBBA3;
    
 }
+
+@media (min-width: 766px){
+   .border-center{
+      border-style: solid solid solid solid;
+      border-width:0px 5px 0px 5px;
+      border-color:blue #1EBBA3 #1EBBA3 #1EBBA3;
+   }
+}
+
+
 .custom-shadow
 {
 -webkit-box-shadow: 10px 10px 21px -1px rgba(0,255,64,1);
