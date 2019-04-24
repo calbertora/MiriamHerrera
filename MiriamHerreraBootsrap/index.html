@@ -11,6 +11,7 @@
    <!-- Reset CSS -->
    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
    <link rel="stylesheet" href="css/index.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 </head>
 
@@ -60,9 +61,9 @@
       </div>
 
       <div class="caption text-center" style="display:none">
-         <h1>Miriam Herrera Flórez</h1>
-         <h3>Abogada</h3>
-         <a class="btn btn-outline-light btn-lg" href="#servicios">Servicios</a>
+         <h1 class="animated zoomIn">Miriam Herrera Flórez</h1>
+         <h3 class="animated tada">Abogada</h3>
+         <a class="btn btn-outline-light btn-lg animated heartBeat" href="#servicios">Servicios</a>
       </div>
 
    </div>
@@ -76,22 +77,22 @@
 
          <div id="about-content" class="row">
             <div class="col-12" style="margin-top:40px">
-               <h3 class="heading text-center">Acerca</h3>
+               <h3 class="heading text-center wow fadeInLeft">Acerca</h3>
                <div class="heading-underline"></div>
             </div>
 
             <div id="content" class="col-md-7 col-sm-12">
-               <h2>Hola, soyMiriam</h2>
+               <h2 class="wow fadeInRight">Hola, soyMiriam</h2>
 
-               <p>Abogada en ejercicio de la Univesidad Libre de Pereira, Contadora Pública de la Universidad Antonio
+               <p class="wow fadeInUp">Abogada en ejercicio de la Univesidad Libre de Pereira, Contadora Pública de la Universidad Antonio
                   Nariño, emprendedora y respetuosa del derecho la equidad y la justicia.</p>
-               <p>Comprometida con mi profesión, mi familia y la sociedad, afrontando cada día los retos que se
+               <p class="wow fadeInUp">Comprometida con mi profesión, mi familia y la sociedad, afrontando cada día los retos que se
                   presentan de manera responsable y profesional.</p>
-               <p>Soy además una persona conciliadora que tiene como lema la excelencia y la profesionalidad en mis
+               <p class="wow fadeInUp">Soy además una persona conciliadora que tiene como lema la excelencia y la profesionalidad en mis
                   servicios.</p>
             </div>
 
-            <div id="img-about" class="col-md-5 col-sm-12">
+            <div id="img-about" class="col-md-5 col-sm-12 wow zoomIn">
                <img src="./img/me.jpg" alt="Miriam Herrera dando la mano">
             </div>
 
@@ -107,13 +108,13 @@
          <div class="row dark text-center">
 
             <div class="col-12" style="margin-top:80px">
-               <h3 class="heading">Servicios</h3>
+               <h3 class="heading wow fadeInLeft">Servicios</h3>
                <div class="heading-underline"></div>
             </div>
 
             <div class="row text-center justify-content-center">
 
-               <div class="col-md-4 service">
+               <div class="col-md-4 service wow fadeInLeft">
                   <div class="service-icon">
                      <i class="fas fa-search-dollar fa-4x" data-fa-transform="shrink-3 up-5"></i>
                      <h3>Tributario</h3>
@@ -122,7 +123,7 @@
                   </div>
                </div>
 
-               <div class="col-md-4 service">
+               <div class="col-md-4 service wow fadeInUp">
                   <div class="service-icon border-center">
                      <i class="fas fa-briefcase fa-4x" data-fa-transform="shrink-3 up-5"></i>
                      <h3>Laboral</h3>
@@ -131,10 +132,9 @@
                         veritatis facere esse modi</p>
                   </div>
 
-
                </div>
 
-               <div class="col-md-4 service">
+               <div class="col-md-4 service wow fadeInRight">
                   <div class="service-icon">
                      <i class="fas fa-gavel fa-4x" data-fa-transform="shrink-3 up-5"></i>
                      <h3>Administrativo</h3>
@@ -146,7 +146,7 @@
 
                </div>
 
-               <div class="col-md-4 service">
+               <div class="col-md-4 service wow fadeInLeft">
                   <div class="service-icon">
                      <i class="fas fa-building fa-4x" data-fa-transform="shrink-3 up-5"></i>
                      <h3>Civil</h3>
@@ -157,7 +157,7 @@
 
                </div>
 
-               <div class="col-md-4 service">
+               <div class="col-md-4 service wow fadeInUp">
                   <div class="service-icon border-center">
                      <i class="fas fa-balance-scale fa-4x" data-fa-transform="shrink-3 up-5"></i>
                      <h3>Familia</h3>
@@ -169,7 +169,7 @@
 
                </div>
 
-               <div class="col-md-4 service">
+               <div class="col-md-4 service wow fadeInRight">
                   <div class="service-icon">
                      <i class="fas fa-balance-scale fa-4x" data-fa-transform="shrink-3 up-5"></i>
                      <h3>Otros</h3>
@@ -193,7 +193,7 @@
    <!-- Start Contact Section-->
    <div id="contact" class="offset">
       <footer>
-         <div class="row justify-content-center">
+         <div class="row justify-content-center wow fadeInLeft">
             <div class="col-md-5 text-center">
                <img src="img/logo.png" alt="">
                <p>Abogada Miriam Herrera Flórez </p>
@@ -215,6 +215,8 @@
    <script src="./js/bootstrap/bootstrap.min.js"></script>
    <script src="./js/custom.js"></script>
    <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+   <script src="./js/scroll.js"></script>
+   <script src="./js/wow.min.js"></script>
 </body>
 
 </html>
